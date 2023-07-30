@@ -6,5 +6,10 @@ namespace WebDeployEase
         {
             InitializeComponent();
         }
+
+        private void Starter_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

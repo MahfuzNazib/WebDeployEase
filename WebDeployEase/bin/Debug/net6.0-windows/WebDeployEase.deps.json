@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "WebDeployEase/1.0.0": {
         "dependencies": {
-          "Bunifu.UI.WinForms": "6.1.0"
+          "Bunifu.UI.WinForms": "6.1.0",
+          "Bunifu.Utils": "1.0.6"
         },
         "runtime": {
           "WebDeployEase.dll": {}
@@ -59,6 +60,17 @@
           "lib/net6.0-windows7.0/Bunifu.UI.WinForms.1.5.3.dll": {
             "assemblyVersion": "1.5.3.0",
             "fileVersion": "1.5.3.0"
+          }
+        }
+      },
+      "Bunifu.Utils/1.0.6": {
+        "dependencies": {
+          "Bunifu.UI.WinForms": "6.1.0"
+        },
+        "runtime": {
+          "lib/net/Bunifu.Utils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -790,6 +802,13 @@
       "sha512": "sha512-u1uDSAP5bIZOEGQ5JVmfx4/XpSULk7+vb3t5CLhQNmF7I2asR0qievx/FYWyt0nGlke+9knm8rwod7L+Fqcw/Q==",
       "path": "bunifu.ui.winforms.1.5.3/1.0.0",
       "hashPath": "bunifu.ui.winforms.1.5.3.1.0.0.nupkg.sha512"
+    },
+    "Bunifu.Utils/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9sad8WB8h1GdJd0ZD1CBn+i8D156FbtNvDiLciEopU48nB74xwvhJbvK3On/kEjNMS0HZ/961owDYCW3NC3sAA==",
+      "path": "bunifu.utils/1.0.6",
+      "hashPath": "bunifu.utils.1.0.6.nupkg.sha512"
     },
     "Costura.Fody/3.3.3": {
       "type": "package",

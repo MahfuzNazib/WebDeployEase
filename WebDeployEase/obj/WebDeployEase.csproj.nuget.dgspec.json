@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Software's\\C#\\DesktopApp\\WebDeployEase\\WebDeployEase\\WebDeployEase.csproj": {}
+    "E:\\DesktopApp\\WebDeployEase\\WebDeployEase\\WebDeployEase.csproj": {}
   },
   "projects": {
-    "E:\\Software's\\C#\\DesktopApp\\WebDeployEase\\WebDeployEase\\WebDeployEase.csproj": {
+    "E:\\DesktopApp\\WebDeployEase\\WebDeployEase\\WebDeployEase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Software's\\C#\\DesktopApp\\WebDeployEase\\WebDeployEase\\WebDeployEase.csproj",
+        "projectUniqueName": "E:\\DesktopApp\\WebDeployEase\\WebDeployEase\\WebDeployEase.csproj",
         "projectName": "WebDeployEase",
-        "projectPath": "E:\\Software's\\C#\\DesktopApp\\WebDeployEase\\WebDeployEase\\WebDeployEase.csproj",
-        "packagesPath": "C:\\Users\\nazib\\.nuget\\packages\\",
-        "outputPath": "E:\\Software's\\C#\\DesktopApp\\WebDeployEase\\WebDeployEase\\obj\\",
+        "projectPath": "E:\\DesktopApp\\WebDeployEase\\WebDeployEase\\WebDeployEase.csproj",
+        "packagesPath": "C:\\Users\\Nazib.m\\.nuget\\packages\\",
+        "outputPath": "E:\\DesktopApp\\WebDeployEase\\WebDeployEase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nazib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nazib.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,12 +39,6 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "dependencies": {
-            "Bunifu.UI.WinForms": {
-              "target": "Package",
-              "version": "[6.1.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -64,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
