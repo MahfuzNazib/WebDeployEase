@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Starter));
+<<<<<<< HEAD
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -249,10 +250,15 @@
             this.txtFolderPath.TabIndex = 4;
             this.txtFolderPath.TextChanged += new System.EventHandler(this.txtFolderPath_TextChanged);
             // 
+=======
+            this.SuspendLayout();
+            // 
+>>>>>>> 396182053b75f29bd20d9ae4c933daa107305f64
             // Starter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(875, 527);
             this.Controls.Add(this.btnOpenFolderPath);
@@ -277,6 +283,16 @@
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
+=======
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Starter";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "WebDeployEase Installer";
+            this.Load += new System.EventHandler(this.Starter_Load);
+            this.ResumeLayout(false);
+>>>>>>> 396182053b75f29bd20d9ae4c933daa107305f64
 
         }
 
