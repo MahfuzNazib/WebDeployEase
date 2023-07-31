@@ -101,6 +101,10 @@ E:\Software's\C#\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows
 E:\Software's\C#\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\WebDeployEase.pdb
 E:\Software's\C#\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\WebDeployEase.genruntimeconfig.cache
 E:\Software's\C#\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\ref\WebDeployEase.dll
+<<<<<<< HEAD
+E:\Software's\C#\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\WebDeployEase.Properties.Resources.resources
+E:\Software's\C#\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\WebDeployEase.InstallationProcess.resources
+=======
 E:\DesktopApp\WebDeployEase\WebDeployEase\bin\Debug\net6.0-windows\WebDeployEase.exe
 E:\DesktopApp\WebDeployEase\WebDeployEase\bin\Debug\net6.0-windows\WebDeployEase.deps.json
 E:\DesktopApp\WebDeployEase\WebDeployEase\bin\Debug\net6.0-windows\WebDeployEase.runtimeconfig.json
@@ -205,3 +209,4 @@ E:\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\refint\WebDep
 E:\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\WebDeployEase.pdb
 E:\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\WebDeployEase.genruntimeconfig.cache
 E:\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\ref\WebDeployEase.dll
+>>>>>>> 396182053b75f29bd20d9ae4c933daa107305f64
