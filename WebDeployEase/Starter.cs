@@ -7,7 +7,6 @@ namespace WebDeployEase
             InitializeComponent();
         }
 
-<<<<<<< HEAD
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -67,11 +66,6 @@ namespace WebDeployEase
             {
                 MessageBox.Show("Please Select a Application Folder Path");
             }
-=======
-        private void Starter_Load(object sender, EventArgs e)
-        {
-
->>>>>>> 396182053b75f29bd20d9ae4c933daa107305f64
         }
     }
 }
