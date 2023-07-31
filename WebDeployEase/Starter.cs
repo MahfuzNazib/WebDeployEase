@@ -24,9 +24,7 @@ namespace WebDeployEase
 
         private void btnInstall_Click(object sender, EventArgs e)
         {
-            bool IsValidate = UserInputValidation();
-
-            if(IsValidate)
+            if(UserInputValidation())
             {
                 InstallationProcess installationProcess = new InstallationProcess();
                 installationProcess.Show();
@@ -36,29 +34,34 @@ namespace WebDeployEase
             
         }
 
+        private bool IsInputEmpty(TextBox textBox, string errorMessage)
+        {
+            if(string.IsNullOrEmpty(textBox.Text))
+            {
+                MessageBox.Show(errorMessage, "Invalid Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            return true;
+        }
+
         private bool UserInputValidation()
         {
-            if(string.IsNullOrEmpty(txtApplicationName.Text))
-            {
-                MessageBox.Show("Please Define Application Name", "Invalid Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            if (IsInputEmpty(txtApplicationName, "Please Define Application Name"))
                 return false;
-            }
 
-            if (string.IsNullOrEmpty(txtFolderPath.Text))
-            {
-                MessageBox.Show("Please Define Application Folder Path", "Invalid Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            if (IsInputEmpty(txtFolderPath, "Please Define Application Folder Path"))
                 return false;
-            }
 
-            if (string.IsNullOrEmpty(txtDatabaseName.Text))
-            {
-                MessageBox.Show("Please Define Database Name", "Invalid Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            if (IsInputEmpty(txtDatabaseName, "Please Define Database Name"))
                 return false;
-            }
 
             return true;
         }
 
+        private bool IsInputEmpty(string text, string v)
+        {
+            throw new NotImplementedException();
+        }
 
         private void Starter_Load(object sender, EventArgs e)
         {
