@@ -24,26 +24,41 @@ namespace WebDeployEase
 
         private void btnInstall_Click(object sender, EventArgs e)
         {
-            InstallationProcess installationProcess = new InstallationProcess();
-            installationProcess.Show();
+            bool IsValidate = UserInputValidation();
 
-            this.Hide();
-        }
+            if(IsValidate)
+            {
+                InstallationProcess installationProcess = new InstallationProcess();
+                installationProcess.Show();
 
-        private void folderBrowserDialog1_HelpRequest(object sender, EventArgs e)
-        {
-            MessageBox.Show("Hello");
-        }
-
-        private void backgroundProgress_Click(object sender, EventArgs e)
-        {
+                this.Hide();
+            }
             
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private bool UserInputValidation()
         {
+            if(string.IsNullOrEmpty(txtApplicationName.Text))
+            {
+                MessageBox.Show("Please Define Application Name", "Invalid Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
 
+            if (string.IsNullOrEmpty(txtFolderPath.Text))
+            {
+                MessageBox.Show("Please Define Application Folder Path", "Invalid Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(txtDatabaseName.Text))
+            {
+                MessageBox.Show("Please Define Database Name", "Invalid Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            return true;
         }
+
 
         private void Starter_Load(object sender, EventArgs e)
         {

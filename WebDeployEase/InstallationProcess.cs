@@ -29,6 +29,48 @@ namespace WebDeployEase
             panelRunningAllSP.Visible = false;
             panelRunningAllViews.Visible = false;
             panelProcessCompleted.Visible = false;
+
+        }
+
+        private void ProcessToLoginDefaultDatabase()
+        {
+            Thread.Sleep(2000);
+            panelLoginDefaultDatabase.Visible = true;
+
+            ProcessToCreateDatabase();
+        }
+
+        private void ProcessToCreateDatabase()
+        {
+            Thread.Sleep(2000);
+            panelDatabaseCreate.Visible = true;
+
+            ProcessToRunAllStoreProcedure();
+        }
+
+        private void ProcessToRunAllStoreProcedure()
+        {
+            Thread.Sleep(2000);
+            panelRunningAllSP.Visible = true;
+
+            ProcessToRunAllViews();
+        }
+
+        private void ProcessToRunAllViews()
+        {
+            Thread.Sleep(2000);
+            panelRunningAllViews.Visible = true;
+
+            ProcessToCompleteInstallation();
+        }
+
+        private void ProcessToCompleteInstallation()
+        {
+            Thread.Sleep(2000);
+            panelProcessCompleted.Visible = true;
+
+            // Close Intallation Progress Bar
+            pnlInstalling.Visible = false;
         }
     }
 }

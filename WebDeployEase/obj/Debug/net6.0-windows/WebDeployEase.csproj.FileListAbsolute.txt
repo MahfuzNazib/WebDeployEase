@@ -210,3 +210,5 @@ E:\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\WebDeployEase
 E:\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\WebDeployEase.genruntimeconfig.cache
 E:\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\ref\WebDeployEase.dll
 >>>>>>> 396182053b75f29bd20d9ae4c933daa107305f64
+E:\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\WebDeployEase.InstallationProcess.resources
+E:\DesktopApp\WebDeployEase\WebDeployEase\obj\Debug\net6.0-windows\WebDeployEase.Properties.Resources.resources
